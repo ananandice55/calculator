@@ -1,0 +1,55 @@
+#sumBotton{
+    font-size: 18px;
+    padding: 15px 20px;
+    color: blue;
+    background-color: yellow;
+    border: 1px;
+
+}
+#minusBotton{
+    font-size: 18px;
+    padding: 15px 20px;
+    color: blue;
+    background-color: yellow;
+    border: 1px;
+}
+#multiplyBotton{
+    font-size: 18px;
+    padding: 15px 20px;
+    color: blue;
+    background-color: yellow;
+    border: 1px;
+}
+#divideBotton{
+    font-size: 18px;
+    padding: 15px 20px;
+    color: blue;
+    background-color: yellow;
+    border: 1px;
+}
+#output{
+    font-size: 30px;
+    color: red;
+}
+#FirstNumber{
+    font-size: 20px;
+    padding: 10px 15px;
+    background-color: white;
+    color: black;
+}
+#secondNumber{
+    font-size: 20px;
+    padding: 10px 15px;
+    background-color: white;
+    color: black;
+}
+header{
+    font-size: 30px;
+    color: black;
+    
+}
+html {
+    background-size: 100%;
+    background-image: url(images/carolyn-v-546925-unsplash.jpg)
+}
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <TItle>Cal</TItle>
+        <link rel="stylesheet" type="text/css" href="theme.css">
+        
+    </head>
+    <body>
+        <center>
+                <header>
+                    เครื่องคิดเลข
+                </header><br/>
+        <input type="text" id="FirstNumber" placeholder="put FirstNumber">
+        <input type="text" id="secondNumber" placeholder="put secondNumber"><br/>
+        <br/>
+        <button id="sumBotton" onclick="getSum()">+</button> 
+        <button id="minusBotton" onclick="getMInus()">-</button>
+        <button id="multiplyBotton" onclick="getMultiply()">x</button>
+        <button id="divideBotton" onclick="getDivide()">÷</button>
+        
+        <div id="output"></div>
+        </center>
+        
+        <script>
+            var FirstNumber = document.getElementById("FirstNumber");
+            var secondNumber = document.getElementById("secondNumber");
+            var output = document.getElementById("output");
+
+            function getSum(){
+                let sum = parseInt(FirstNumber.value) +parseInt(secondNumber.value);
+                showResult(sum);
+            }
+            function getMInus(){
+                let Minus = parseInt(FirstNumber.value) - parseInt(secondNumber.value);
+                showResult(Minus);
+            }
+            function getMultiply (){
+                let Multiply = parseInt(FirstNumber.value) * parseInt(secondNumber.value);
+                showResult(Multiply);
+            }
+            function getDivide(){
+                let Divide = parseInt(FirstNumber.value) / parseInt(secondNumber.value);
+                showResult(Divide);
+            }
+            function showResult(result){
+                    output.innerHTML="Answer: "+result;
+            }
+        </script>
+        
+    </body>
+    
+
+</html>
